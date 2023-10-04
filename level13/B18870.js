@@ -21,3 +21,4 @@ arr.forEach((item) => {
     str += object[item] + " ";
 });
 console.log(str);
+
