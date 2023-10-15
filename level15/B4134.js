@@ -4,7 +4,7 @@ const input = fs.readFileSync("../input.txt").toString().trim().split("\n").map(
 
 input.shift();
 
-const Eratos = (n) => {
+const prime = (n) => {
     if(n < 2){
         return false;
     }
@@ -19,7 +19,7 @@ const Eratos = (n) => {
 let answer = [];
 
 for(let i of input){
-    while(!Eratos(i)){
+    while(!prime(i)){
         i++;
     }
     answer.push(i);
