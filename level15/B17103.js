@@ -1,11 +1,12 @@
-// N까지 에라토스테네스의 체로 소수들을 찾는다.
+/*
+N까지 에라토스테네스의 체로 소수들을 찾는다.
 
-// 2부터 N/2 까지 for문을 돌린 뒤
+2부터 N/2 까지 for문을 돌린 뒤
 
-// (N - i)를 다시 에라토스테네스로 검사하여 소수인지 검사한다.
+(N - i)를 다시 에라토스테네스로 검사하여 소수인지 검사한다.
 
-// 소수라면 ++
-
+소수라면 ++
+*/
 const fs = require("fs");
 
 const input = fs
@@ -18,7 +19,7 @@ const input = fs
 input.shift();
 
 const Eratos = (N) => {
-  let arr = Array(N+1).fill(true);
+  let arr = Array(N + 1).fill(true);
   let cnt = 0;
 
   arr[0] = false;
