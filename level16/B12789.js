@@ -50,15 +50,3 @@ class main {
 const app = new main();
 
 app.exe();
-
-/*
-stackSnack - 간식 받는 곳
-stackWait - 대기하는 곳
-
-stackSnack - 1일 경우 push() 아닐경우 stack2로 넘김
-       - 1이 push 되었다면 + 1하여 2일 경우로 반복
-       - 입력값 배열과 Stack2 두 곳 모두에서 입력 받아야함
-
-stackWait - push하려는 값이 Top에 위치한 값보다 크면 
-            바로 return "Sad"
-*/
