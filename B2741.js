@@ -1,11 +1,6 @@
-const fs = require("fs");
+console.log(score);
 
-const input = fs.readFileSync("../input.txt").toString().trim();
+score = 80;
+var score;
 
-const N = Number(input);
-
-let answer = "";
-
-for(let i=1; i<=N; i++){
-    answer += i + "\n";
-}
+console.log(score);
